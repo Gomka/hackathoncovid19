@@ -3,10 +3,12 @@ hackathon time
 
 Developers:
 
-Gonzalo Marcos
+Gonzalo Marcos [FRONTEND]
+
+Nikola Nikolaev [FRONTEND]
 
 Yeray Bartolomé
 
 Pau López
 
-Nikola Nikolaev
+BACKEND REPO: https://github.com/YerayBartolome/hackathoncovid19backend

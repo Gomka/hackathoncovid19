@@ -1,4 +1,4 @@
-# HackathoncCovid19
+# HackathonCovid19 Frontend
 hackathon time
 
 Developers:

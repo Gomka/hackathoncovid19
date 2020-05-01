@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText name;
     private EditText password;
-    private Button login;
+    private Button login, register;
     private TextView text;
 
 
@@ -25,11 +25,18 @@ public class MainActivity extends AppCompatActivity {
         name = (EditText) findViewById(R.id.NombreLogin);
         password = (EditText) findViewById(R.id.PasswordLogin);
         login = (Button) findViewById(R.id.Btn_Login);
-
+        register = (Button) findViewById(R.id.Btn_Register);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 validate(name.getText().toString(), password.getText().toString());
+            }
+        });
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RegistrationActivity.class);
+                startActivity(intent);
             }
         });
     }

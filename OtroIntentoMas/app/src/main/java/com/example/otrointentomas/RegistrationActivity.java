@@ -38,16 +38,12 @@ public class RegistrationActivity extends AppCompatActivity {
 
     private void validate(String username, String email, String phoneNumber, String password) {
         if (true) {
-            try {
-                AndroidNetworking.post("http://localhost:8080/registerUser")
-                        .addBodyParameter("username", username)
-                        .addBodyParameter("email", email)
-                        .addBodyParameter("phonenumber", phoneNumber)
-                        .addBodyParameter("password", AeSimpleSHA1.SHA1(password))
-                        .build();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+            AndroidNetworking.post("http://localhost:8080/registerUser")
+                    .addBodyParameter("username", username)
+                    .addBodyParameter("email", email)
+                    .addBodyParameter("phonenumber", phoneNumber)
+                    .addBodyParameter("password", password)
+                    .build();
 
             Intent intent = new Intent(RegistrationActivity.this, SecondActivity.class);
             startActivity(intent);

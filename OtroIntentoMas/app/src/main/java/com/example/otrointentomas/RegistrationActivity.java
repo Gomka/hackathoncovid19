@@ -35,8 +35,9 @@ public class RegistrationActivity extends AppCompatActivity {
 
     private void validate(String username, String email, String phoneNumber, String password) {
         if (true) {
-            Intent intent = new Intent(RegistrationActivity.this, SecondActivity.class);
+            Intent intent = new Intent(RegistrationActivity.this, FourthActivity.class);
             startActivity(intent);
         }
     }
 }
+r

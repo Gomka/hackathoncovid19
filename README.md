@@ -3,9 +3,9 @@ hackathon time
 
 Developers:
 
-Gonzalo Marcos [FRONTEND]
+Gonzalo Marcos
 
-Nikola Nikolaev [FRONTEND]
+Nikola Nikolaev
 
 Yeray Bartolomé
 

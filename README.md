@@ -1,7 +1,7 @@
 # HackathonCovid19 Frontend
 
 Hackathon Time!
-CONTIGO|Al menos compila Studio:
+CONTIGO by Al menos compila Studio:
 https://www.youtube.com/watch?v=ezjoFubVrwM&feature=youtu.be
 
 Developers:
